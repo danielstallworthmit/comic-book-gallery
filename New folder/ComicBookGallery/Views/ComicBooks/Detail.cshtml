@@ -1,8 +1,9 @@
 ﻿@model ComicBookGallery.Models.ComicBook
 
 @{
-    Layout = null;  // Set path to layout page "~/Views/Shared/_Layout.cshtml"
+    Layout = "~/Views/Shared/_Layout.cshtml";  // Set path to layout page "~/Views/Shared/_Layout.cshtml"
     ViewBag.Title = Model.DisplayText;  //  "Comic Book Detail";
+    ViewBag.ShowBackBar = true;
 }
 
 <!DOCTYPE html>
