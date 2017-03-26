@@ -8,6 +8,11 @@ namespace ComicBookGallery.Data
 {
     public class ComicBookRepository
     {
+        public ComicBook[] GetComicBooks()
+        {
+            return _comicBooks;
+        }
+
         private static ComicBook[] _comicBooks = new ComicBook[]
         {
             new ComicBook()
